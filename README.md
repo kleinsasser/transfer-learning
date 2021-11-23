@@ -43,6 +43,12 @@ Support Vector Machine
 |SVM|0.085|NA|NA|
 |Neural Net|0.071|0.218|0.331|
 
+#### Conclusion
+
+Pretty atrocious scores across the board, especially terrible performance coming from models trained on EfficientNet representations (so much so that a thorough sweep for mistakes is due in my opinion), surprising considering EfficientNet significantly outperforms the ResNet on the task each is pre-trained on.
+
+I also expected stronger performance from SVMs compared to the simpler Naive Bayes and KNN models, with Naive Bayes performing best all around aside from the single layer neural net.
+
 ## Sources
 torchvision models reference [https://pytorch.org/vision/stable/models.html]
 ResNet Paper [https://arxiv.org/abs/1512.03385]
