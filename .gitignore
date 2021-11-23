@@ -1,5 +1,7 @@
 cifar-100-python
 cifar-100-python.tar.gz
-numpydata
+resnetdata
+enetdata
 
 .DS_Store
+scratch
