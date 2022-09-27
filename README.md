@@ -45,9 +45,7 @@ Support Vector Machine
 
 #### Conclusion
 
-Pretty atrocious scores across the board, especially terrible performance coming from models trained on EfficientNet representations (so much so that a thorough sweep for mistakes is due in my opinion), surprising considering EfficientNet significantly outperforms the ResNet on the task each is pre-trained on.
-
-I also expected stronger performance from SVMs compared to the simpler Naive Bayes and KNN models, with Naive Bayes performing best all around aside from the single layer neural net.
+Pretty atrocious scores across the board, especially terrible performance coming from models trained on EfficientNet representations. One might attribute this poor performance to the fact that the inputs are generated from images that the vision model wasn't trained on, I think it is notable that CIFAR images need to be resized to the shape of ImageNet models, and are generally of a much poorer quality. In conclusion, I was disappointed by the performances here, but also was pulled away from this project before any real attempts to improve these performances were made.
 
 ## Sources
 torchvision models reference [https://pytorch.org/vision/stable/models.html]
